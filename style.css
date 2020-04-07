@@ -1,16 +1,19 @@
 html {
     background-color: #00D1B2 !important;
+
 }
 body {
     
     color: white;
     font-family: montserrat !important;
     height: 100vh;
+    background-image: url("easter-K5BE5U7.jpg");
+    background-size: cover;
 }
 .title {
     font-size: 3em;
     text-align: center;
-    margin-top: 3em;
+    padding-top: 4em;
     margin-bottom: 3em !important
 
 }

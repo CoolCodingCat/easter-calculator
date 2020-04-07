@@ -31,3 +31,8 @@ if (P<10){
     date.innerText = `Pâques tombe le ${paques} avril en ${A}`;
     visible.classList.remove("is-hidden");  
 }
+
+const button = document.querySelector(".button");
+button.addEventListener('click', function(){
+    window.location.reload(false);
+})

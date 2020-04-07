@@ -18,6 +18,7 @@ N = C%7
 P = M+N
 
 If P<10 Easter will be on P + 22 March
+
 If P>9 Easter will be on P - 9 April
 
 *This was a Math lesson my daughter got from her teacher to study Euclidian divisions. Just turned it into Javascript*
