@@ -1,0 +1,26 @@
+html {
+    background-color: #00D1B2 !important;
+}
+body {
+    
+    color: white;
+    font-family: montserrat !important;
+    height: 100vh;
+}
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em !important
+
+}
+.answer {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 6em;
+    font-weight: bold;
+    width: 30%;
+    margin: auto;
+}
+
+
