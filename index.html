@@ -13,7 +13,24 @@
 <body class="has-background-primary">
     
         <h1 class="title has-text-white is-centered is-size-1">Calcul de Pâques</h1>
+        <div class="yearInput">
+          <form class="form">
+            <div class="field has-addons ">
+              <div class="control ">
+                <input class="input" id="year" type="text" placeholder="Année">
+              </div>
+              <div class="control">
+                <a class="button is-info send">
+                  Envoyer
+                </a>
+                
+              </div>
+              
+            </div>
+            <p class="help is-centered">Choisissez une année entre 1900 et 2099</p>
+          </form>
 
+        </div>
         <div class="answer has-text-white is-size-3 is-hidden">
             <article class="message is-info">
                 <div class="message-header">
@@ -24,8 +41,13 @@
                 </div>
               </article>
               <button class="button is-info is-rounded reset">Reset</button>
+              
         </div>
-        <style>#forkongithub a{background:#6577F6;color:#fff;text-decoration:none;font-family:arial,sans-serif;text-align:center;font-weight:bold;padding:5px 40px;font-size:1rem;line-height:2rem;position:relative;transition:0.5s;}#forkongithub a:hover{background:#c11;color:#fff;}#forkongithub a::before,#forkongithub a::after{content:"";width:100%;display:block;position:absolute;top:1px;left:0;height:1px;background:#fff;}#forkongithub a::after{bottom:1px;top:auto;}@media screen and (min-width:800px){#forkongithub{position:fixed;display:block;top:0;right:0;width:200px;overflow:hidden;height:200px;z-index:9999;}#forkongithub a{width:200px;position:absolute;top:60px;right:-60px;transform:rotate(45deg);-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);box-shadow:4px 4px 10px rgba(0,0,0,0.8);}}</style><span id="forkongithub"><a href="https://github.com/CoolCodingCat/easter-calculator">Fork me on GitHub</a></span>
+        <footer>
+          <img class="octocat" src="Octocat.png"><br/>
+          <a href="https://github.com/CoolCodingCat/easter-calculator">Voir le code sur Github</a>
+        </footer>
+    
   
     <script src="calc.js"></script>
 </body>
