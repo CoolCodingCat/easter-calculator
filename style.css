@@ -1,11 +1,7 @@
-html {
-    background-color: #00D1B2 !important;
-
-}
 body {
     
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     height: 100vh;
     background-image: url("easter-K5BE5U7.jpg");
     background-size: cover;
@@ -22,7 +18,7 @@ body {
     font-size: 2em;
     margin-top: 6em;
     font-weight: bold;
-    width: 30%;
+    width: 40%;
     margin: auto;
 }
 .octocat {
@@ -43,6 +39,20 @@ footer {
 }
 .field {
     justify-content: center !important;
+}
+.subtitle {
+    color: #3268DC !important;
+    font-size: 0.7em !important;
+    font-weight: bold !important;
+}
+.message {
+    border: 1px solid white;
+    border-radius: 10px !important;
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: -4px 4px 19px -1px rgba(150,144,150,0.36);
+    -moz-box-shadow: -4px 4px 19px -1px rgba(150,144,150,0.36);
+    box-shadow: -4px 4px 19px -1px rgba(150,144,150,0.36);
 }
 
 

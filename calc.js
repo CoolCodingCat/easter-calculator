@@ -2,13 +2,13 @@
 const send = document.querySelector(".send");
 send.addEventListener('click', function(){
 
-        console.log("send has been clicked");
+        //console.log("send has been clicked");
 
         const inputForm = document.querySelector(".yearInput");
         inputForm.classList.add("is-hidden");
     
         const A = document.querySelector("#year").value;
-        console.log(A)
+        //console.log(A)
     
         let R = A%4;
         let S = A%7;
@@ -23,7 +23,7 @@ send.addEventListener('click', function(){
     
         let P = M+N;
     
-        console.log(P);
+        //console.log(P);
     
     
         const answer = document.querySelector('.answer');
@@ -31,14 +31,14 @@ send.addEventListener('click', function(){
         if (P<10){
             let paques = P + 22;
             //console.log(paques + 'mars');
-            const date = document.querySelector(".message-body");
+            const date = document.querySelector(".subtitle");
             const visible = document.querySelector(".answer")
             date.innerText = `Pâques tombe le ${paques} mars en ${A}`;
             visible.classList.remove("is-hidden");
         } else {
             let paques = P - 9;
             //console.log(paques + 'avril');
-            const date = document.querySelector(".message-body");
+            const date = document.querySelector(".subtitle");
             const visible = document.querySelector(".answer")
             date.innerText = `Pâques tombe le ${paques} avril en ${A}`;
             visible.classList.remove("is-hidden");  
@@ -54,4 +54,6 @@ send.addEventListener('click', function(){
 const button = document.querySelector(".reset");
 button.addEventListener('click', function(){
     window.location.reload(false);
+    document.querySelector("#year").value = "";
+    
 })
